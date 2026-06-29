@@ -20,39 +20,45 @@ setInterval(updateClock, 1000);
 updateClock();
 
 
-// =============================
+// =====================================
 // DARK MODE
-// =============================
+// =====================================
+
+function themeButton() {
+
+    const themeBtn = document.querySelector(".dark-btn");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeBtn.innerHTML = "☀️";
+    } else {
+        themeBtn.innerHTML = "🌙";
+    }
+
+}
 
 function toggleDarkMode() {
 
     document.body.classList.toggle("dark-mode");
 
-    if(document.body.classList.contains("dark-mode")){
-
-        localStorage.setItem("theme","dark");
-
-    }else{
-
-        localStorage.setItem("theme","light");
-
+    if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+    } else {
+        localStorage.setItem("theme", "light");
     }
+
+    themeButton();
 
 }
 
+window.onload = function () {
 
-// Load saved theme
-
-window.onload = function(){
-
-    if(localStorage.getItem("theme")=="dark"){
-
+    if (localStorage.getItem("theme") === "dark") {
         document.body.classList.add("dark-mode");
-
     }
 
-};
+    themeButton();
 
+};
 
 
 
