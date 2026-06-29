@@ -13,7 +13,7 @@ This project is an upgraded personal profile website developed as part of our Mi
 * Projects section
 * Contact form
 * Live date and time
-* Dark Mode toggle
+* Dark Modewith saved theme preferences
 * Scroll-to-top button
 * Firebase Firestore integration for storing contact form submissions
 * Hosted using GitHub Pages
@@ -33,9 +33,9 @@ This project is an upgraded personal profile website developed as part of our Mi
 
 ChatGPT was used to assist in designing the user interface, generating HTML, CSS, JavaScript code, improving the website layout, and integrating Firebase Firestore.
 
-## Version Control
+## Git Workflow
 
-This project uses Git and GitHub for version control. A separate branch was created to implement improvements before merging them into the main branch.
+A separate branch named **profile-update** was created to implement new features and improvements. After testing the changes, the branch was merged into the **main** branch using Git and GitHub.
 
 ## Project Structure
 
