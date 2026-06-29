@@ -7,17 +7,13 @@ import {
 
 const firebaseConfig = {
 
-    apiKey: "AIzaSyBQbIc6uJ_Z5FgJ4CcgF4VpoXVvfMFE0Fg",
-
-    authDomain: "personal-profile-bf15c.firebaseapp.com",
-
-    projectId: "personal-profile-bf15c",
-
-    storageBucket: "personal-profile-bf15c.firebasestorage.app",
-
-    messagingSenderId: "502856955936",
-
-    appId: "1:502856955936:web:209b10d7fd6f9229ba2445"
+  apiKey: "AIzaSyC_61tt0AhvwVdiKQ7T4bjNE086qz3PnXE",
+  authDomain: "personal-profile-7d510.firebaseapp.com",
+  projectId: "personal-profile-7d510",
+  storageBucket: "personal-profile-7d510.firebasestorage.app",
+  messagingSenderId: "791287134140",
+  appId: "1:791287134140:web:8a0def95c5da9335cc9db9",
+  measurementId: "G-W1T9PV0ZQ9"
 };
 
 const app = initializeApp(firebaseConfig);
